@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/easy-pie-chart/2.1.6/jquery.easypiechart.min.js" integrity="sha512-DHNepbIus9t4e6YoMBSJLwl+nnm0tIwMBonsQQ+W9NKN6gVVVbomJs9Ii3mQ+HzGZiU5FyJLdnAz9a63ZgZvTQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="port.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+    <title>Porfolio</title>
+</head>
+<body>
+    <!-- Secciòn INICIO -->
+    <span class="sombra">
+        <section id="inicio" class="inicio">
+            <div class="contenido">
+                <header>
+                    <div class="logo">
+                        <i class="fa-brands fa-codepen"></i>
+                        <h1>Developer</h1>
+                    </div>
+                    <nav id="nav" class=""">
+                        <a href="#inicio">Inicio</a>
+                        <a href="#servicios">Servicios</a>
+                        <a href="#habilidades">Habilidades</a>
+                        <a href="#trabajos">Trabajos</a>
+                        <a href="#contacto">Contacto</a>
+                    </nav>
+    
+                    <!-- Icono del menu responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+    
+                    <div class="redes">
+                        <a href="https://www.linkedin.com/in/emanuel-filigrana-69b189329?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin" style=" color: #0a66c2;"></i></a>
+                        <a href="#"><i class="fa-brands fa-github" style="color:#000"></i></a>
+                        <!-- <a href="#"><i class="fa-brands fa-facebook-f"></i></a> -->
+                    </div>
+                </header>
+    
+                <div class="fila">
+                    <div class="col">
+                        <h2>Hi!</h2>
+                        <h2>I' am Emanuel</h2>
+                        
+                        <p>I am a technologist in software analysis and development, specializing in both FRONT-END, BACK-END and mobile development.</p>
+                        
+                    </div>
+                    <div class="col">
+                        <div class="contenedor-img">
+                            <img src="img/emanu.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </span>
+
+    <!-- sección SERVICIOS -->
+    <section id="servicios" class="servicios">
+        <div class="fila">
+        
+            <div class="col">
+                <div class="card">
+                    <div class="icono color2">
+                        <div class="circulo">
+                            <i class="fa-solid fa-globe"></i>
+
+                        </div>
+                    </div>
+                    <h3>Desarrollo web</h3>
+                    Angular, Django
+                    <p></p>
+
+                  
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="icono color1">
+                        <div class="circulo">
+                            <i class="fab fa-android"></i>
+
+                        </div>
+                    </div>
+                    <h3>Desarrollo Mobil</h3>
+                    Android estudio and Kotlin
+                    <p></p>
+
+                  
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="icono color3">
+                        <div class="circulo">
+                            <i class="fa-solid fa-database"></i>
+
+                        </div>
+                    </div>
+                    <h3>Bases de datos</h3>
+                    Mysql, Mongodb
+                    <p></p>
+
+                   
+                </div>
+            </div>
+        </div>
+      
+           
+            
+    </section>
+
+    <!-- sección habilidades -->
+    <section class="habilidades" id="habilidades">
+        <div class="contenedor-habi">
+            <h2>Habilidades</h2>
+            <div class="fila">
+                <div class="col">
+                    <div class="score">
+                        <div class="box">
+                            <div class="chart" data-percent="100">
+                               <!-- <i class="fa-solid fa-file-code"></i>  -->
+                                <img src="img/html.png" alt="" width="50">
+                            </div>
+                            <h2>HTML & CSS</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="score">
+                        <div class="box">
+                            <div class="chart" data-percent="100">
+                                <i class="bi bi-bootstrap" style="font-size: 4rem;"></i>
+                            </div>
+                            <h2>BOOSTRAP</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="score">
+                        <div class="box">
+                            <div class="chart" data-percent="100">
+                                <i class="fa-brands fa-js fa-x1" style="color: #c6b231;"></i>
+                            </div>
+                            <h2>JAVASCRIPT</h2>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="fila">
+                <div class="col">
+                    <div class="score">
+                        <div class="box">
+                            <div class="chart" data-percent="100">
+                                <i class="fa-solid fa-database" style="color: #00758F;"></i>
+                            </div>
+                            <h2>MYSQL</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="score">
+                        <div class="box">
+                            <div class="chart" data-percent="100">
+                                <img src="img/ts.png" alt="" width="50">
+                            </div>
+                        <h2>TYPESCRIPT</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="score">
+                        <div class="box">
+                            <div class="chart" data-percent="100">
+                                <i class="fa-brands fa-angular fa-1x" style="color: #DD0031;"></i>
+                            </div>
+                            <h2>ANGULAR</h2>
+                        </div>
+                    </div>
+                </div>
+               
+               
+            </div>
+            <div class="fila">
+                <div class="col">
+                    <div class="score">
+                        <div class="box">
+                            <div class="chart" data-percent="100">
+                                <i class="fas fa-mug-hot" style="color: #f89820; font-size: 4rem;"></i>
+
+                            </div>
+                            <h2>JAVA</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="score">
+                        <div class="box">
+                            <div class="chart" data-percent="100">
+                                <i class="fas fa-leaf" style="color: #47A248; font-size: 4rem;"></i>
+
+                            </div>
+                            <h2>MongoDb</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="score">
+                        <div class="box">
+                            <div class="chart" data-percent="100">
+                                <i class="fa-brands fa-python" style="color: #306998;"></i>
+                            </div>
+                            <h2>DJANGO</h2>
+                        </div>
+                    </div>
+                </div>
+
+            </div>            
+            <div class="fila">
+
+                <div class="col">
+                    <div class="score">
+                    <div class="box">
+                        <div class="chart" data-percent="100">
+                              <img src="img/kotlin.png" alt="" width="50">
+                        </div>
+                        <h2>KOTLIN</h2>
+                    </div>
+                  </div>
+                </div>
+
+            </div>
+            
+            </div>
+    </section>
+
+    <!-- sección trabajos -->
+    <section class="trabajos" id="trabajos">
+        <h2>Proyectos</h2>
+
+        <nav>
+            
+            <!-- <a href="javascript:void(0)" class="" id="programacion" onclick="verCategoria('programacion')">Programación</a> -->
+           
+        </nav>
+
+        <div class="galeria">
+            
+            <div class="item programacion">
+                <img src="img/dash.png" alt="">
+                <div class="info">
+                    <h3>Real Time DT</h3>
+                    <span>Angular</span>
+                    <a href="#">Ver Trabajo</a>
+                </div>
+            </div>
+           
+            
+        </div>
+    </section>
+
+    <!-- sección contacto -->
+    <section class="contacto" id="contacto">
+        <div class="contenedor-contacto">
+            <h2>Contacto</h2>
+            <div class="fila">
+                <div class="col">
+                    <div class="info">
+                        <h3>Email:</h3>
+                        <p>filigran24@hotmail.com</p>
+                    </div>
+                    <div class="info">
+                        <h3>País</h3>
+                        <p>Colombia</p>
+                    </div>
+                    <div class="info">
+                        <h3>Ciudad:</h3>
+                        <p>Santander de Quilchao</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <form action="https://formsubmit.co/activisionactivision7@gmail.com" method="post">
+                    <input type="text" placeholder="Nombre..." name="Nombre">
+                    <input type="text" placeholder="Correo..." name="Correo">
+                    <textarea name="Mensaje" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <input type="submit" value="Enviar" class="btn">
+                </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>By Emanuel</p>
+    </footer>
+    <script src="port.js"></script>
+</body>
+</html>
