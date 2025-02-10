@@ -325,6 +325,7 @@ body{
 }
 .contacto .contenedor-contacto .fila{
     display: flex;
+    
 }
 .contacto .contenedor-contacto .fila .col{
     width: 50%;
@@ -441,6 +442,7 @@ footer{
 
     .contacto .fila{
         display:  block !important;
+
     }
     .contacto .fila .col{
         text-align: center;
@@ -450,10 +452,13 @@ footer{
         float: left;
         font-size: 12px;
         width: 25%;
-    }
+       
+        
     .contenedor-img{
         border-radius: 50%;
 
     }
     
 }
+}
+
