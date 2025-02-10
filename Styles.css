@@ -197,6 +197,7 @@ body{
 .habilidades .fila{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 .score{
     padding: 10px;
