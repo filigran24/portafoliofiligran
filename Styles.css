@@ -451,22 +451,21 @@ footer{
         width: 100% !important;
     }
     .contacto .fila .col .info{
-        float: left;
+        display: flex;
         font-size: 12px;
         width: 25%;
-    
+        text-align: center;
+       flex-wrap: wrap;
+       justify-content: center;
+       align-items: center;
        
+    }
         
     .contenedor-img{
         border-radius: 50%;
 
     }
     
-}
-}
-@media screen and(min-width: 600px) {
-    .col{
-        width: calc(50% - 20px);
-    }
-}
 
+
+}
