@@ -325,6 +325,8 @@ body{
 }
 .contacto .contenedor-contacto .fila{
     display: flex;
+    flex-direction: row;
+    text-align: center;
     
 }
 .contacto .contenedor-contacto .fila .col{
@@ -332,8 +334,8 @@ body{
 }
 .contacto .contenedor-contacto .info{
     margin-bottom: 30px;
-    border-left: 3px solid #8d8d8d;
     padding-left: 8px;
+   
 }
 .contacto .contenedor-contacto .info p{
     color: #8d8d8d;
@@ -452,6 +454,7 @@ footer{
         float: left;
         font-size: 12px;
         width: 25%;
+    
        
         
     .contenedor-img{
@@ -460,5 +463,10 @@ footer{
     }
     
 }
+}
+@media screen and(min-width: 600px) {
+    .col{
+        width: calc(50% - 20px);
+    }
 }
 
