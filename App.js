@@ -177,3 +177,18 @@ for(i=0; i < links.length;i++){
         btnEliminar.remove();
     }
 }
+
+  function toggleInfo1() {
+    const info = document.getElementById("infor1"); 
+    info.style.display = (info.style.display === "none" || info.style.display === "") ? "block" : "none";
+  }
+
+  function toggleInfo2() {
+    const info = document.getElementById("infor2"); 
+    info.style.display = (info.style.display === "none" || info.style.display === "") ? "block" : "none";
+  }
+  function toggleInfo3() {
+    const info = document.getElementById("infor3"); 
+    info.style.display = (info.style.display === "none" || info.style.display === "") ? "block" : "none";
+  }
+  
