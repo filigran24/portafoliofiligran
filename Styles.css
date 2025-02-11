@@ -373,7 +373,9 @@ footer{
         clip-path: none;
     }
 }
-@media screen and (max-width:800px){
+@media screen and (max-width:800px) and (min-width:300px) {
+
+
     .redes{
         display: none;
     }
@@ -441,7 +443,13 @@ footer{
     .trabajos nav a{
         margin: 0 5px;
     }
+ 
+    .contenedor-img{
+        border-radius: 50%;
 
+    }
+   @media screen and (max-width:300px) {
+    
     .contacto .fila{
         display:  block !important;
 
@@ -455,17 +463,12 @@ footer{
         font-size: 12px;
         width: 25%;
         text-align: center;
-       flex-wrap: wrap;
+       flex-wrap: wrap; 
        justify-content: center;
        align-items: center;
        
     }
-        
-    .contenedor-img{
-        border-radius: 50%;
-
-    }
-    
-
+       
+   }
 
 }
