@@ -63,7 +63,7 @@ body{
 }
 .inicio .fila{
     display: flex;
-    margin-top: 50px;
+    margin-top: 28px;
     padding-bottom: 100px;
 }
 .inicio .fila .col{
