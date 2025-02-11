@@ -178,17 +178,32 @@ for(i=0; i < links.length;i++){
     }
 }
 
+
+document.addEventListener("DOMContentLoaded", function(){
+    document.getElementById("infor1").style.display="none";
+})
   function toggleInfo1() {
     const info = document.getElementById("infor1"); 
-    info.style.display = (info.style.display === "none" || info.style.display === "") ? "block" : "none";
+    info.style.display = (info.style.display === "none") ? "block" : "none";
   }
 
+
+
+  document.addEventListener("DOMContentLoaded", function(){
+    document.getElementById("infor2").style.display="none";
+})
   function toggleInfo2() {
     const info = document.getElementById("infor2"); 
-    info.style.display = (info.style.display === "none" || info.style.display === "") ? "block" : "none";
+    info.style.display = (info.style.display === "none") ? "block" : "none";
   }
+
+
+
+  document.addEventListener("DOMContentLoaded", function(){
+    document.getElementById("infor3").style.display="none";
+})
   function toggleInfo3() {
     const info = document.getElementById("infor3"); 
-    info.style.display = (info.style.display === "none" || info.style.display === "") ? "block" : "none";
+    info.style.display = (info.style.display === "none") ? "block" : "none";
   }
   
