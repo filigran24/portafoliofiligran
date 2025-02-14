@@ -112,10 +112,15 @@ body{
 .servicios{
     max-width: 1100px;
     margin: auto;
+    margin-top: 150px;
     padding: 0 20px;
     position: relative;
     top: -170px;
     z-index: 10;
+}
+.servis{
+    text-align: center;
+    margin-top: 130px;
 }
 .servicios .fila{
     display: flex;
