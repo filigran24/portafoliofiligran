@@ -207,3 +207,32 @@ document.addEventListener("DOMContentLoaded", function(){
     info.style.display = (info.style.display === "none") ? "block" : "none";
   }
   
+
+//   //Conection database
+//   const mysql =require('mysql');
+
+//   //Configuracion de la conexcion
+//   const connection =mysql.createConnection({
+//     hots: 'localhost',
+//     user: 'root',
+//     password: '',
+//     database: 'javas'
+//   });
+
+// // conexion
+// connection.connect((err)=>{
+//     if(err){console.error('error conectando a la base de datos',  err.stack);
+//         return;
+       
+//     }
+//     console.log('conectando a la base de datos',
+//         connection.threadId);
+// });
+
+// //consulta
+// connection.query('SELECT * FROM javas', (err, rows, fields)=>{
+//     if (error)throw error;
+//     console.log('resultados', result);
+// });
+
+// connection.end();
